@@ -1,0 +1,211 @@
+/* Estilos gerais */
+body {
+   font-family: 'Poppins', sans-serif;  /* Fonte moderna e leve */
+   margin: 0;
+   padding: 0;
+   background-color: #f7f7f7;  /* Fundo suave e neutro */
+   color: #A49A9A;  /* Texto em cinza escuro */
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: #ffffff;  /* Fundo branco simples */
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);  /* Sombra suave para dar profundidade */
+}
+
+.logo {
+   max-width: 140px;
+   float: left;
+}
+h4 {
+   color: #E51038;
+   font-weight: bold;
+   text-align: center;
+	}
+	h5 {
+   color: #000000;
+   font-weight: bold;
+   text-align: center;
+		}
+nav ul {
+   list-style: none;
+   display: flex;
+   padding: 0;
+   gap: 40px;
+}
+
+nav ul {
+   display: inline-block;
+   margin-right: 60px;  /* Espaçamento entre os botões */
+}
+
+nav ul li:last-child {
+   margin-right: 0;  /* Remove o espaçamento extra no último item */
+}
+
+nav ul a {
+   text-decoration: none;
+   font-weight: bold;
+   color: #E51038;
+   padding: 10px 20px;  /* Espaçamento interno para formar o quadrado */
+   border: 2px solid black;  /* Borda preta em volta do botão */
+   border-radius: 10px;  /* Bordas arredondadas */
+   transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para o hover */
+}
+
+nav ul a:hover {
+   background-color: #E51038;  /* Cor de fundo ao passar o mouse */
+   color: white;  /* Cor do texto quando em hover */
+   box-shadow: 0px 8px 15px rgba(214, 40, 40, 0.3);  /* Sombra suave */
+}
+
+section {
+   padding: 40px 20px;
+   text-align: center;
+}
+
+h1 {
+   color: #E51038;
+   font-weight: bold;
+   text-align: center;
+}
+
+p {
+   color: #555;  /* Texto mais claro */
+   font-size: 18px;
+   line-height: 1.6;
+   max-width: 800px;
+   margin: 20px auto;  /* Mantém o parágrafo centralizado e não tão largo */
+}
+
+/* Seção Serviços */
+.servico {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 60px;
+   margin: 60px 0;
+}
+
+.servico img {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+}
+
+.texto-servico {
+   text-align: left;
+}
+
+/* Carrossel */
+.carrossel-container {
+   position: relative;
+   width: 100%;
+   overflow: hidden;  /* Oculta as imagens que saem do contêiner */
+   margin: 20px 0;
+}
+
+.carrossel {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+}
+
+.carrossel img {
+   min-width: 100%;
+   height: 400px;
+   object-fit: cover;
+}
+.container  {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+	}
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.item p {
+    font-size: 16px;
+    margin-top: 10px;
+
+/* Mapa */
+ mapa 
+ : flex;
+   justify-content: center;
+   margin: 40px 0;
+}
+
+/* Container da newsletter */
+.newsletter-container {
+   background-color: white;
+   padding: 6px 40px;  /* Corrigido para não ser tão grande */
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   width: 100%;
+   max-width: 1000px; /* Limita a largura máxima do formulário */
+   margin: auto;
+}
+
+/* Título da newsletter */
+.newsletter-container h1 {
+   font-size: 24px;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+/* Texto abaixo do título */
+.newsletter-container p {
+   font-size: 16px;
+   color: #666;
+   margin-bottom: 30px;
+}
+
+/* Estilos dos rótulos */
+.newsletter-form label {
+   font-size: 14px;
+   color: #333;
+   display: block;
+   margin-bottom: 5px;
+   text-align: center;
+}
+
+/* Estilos dos campos de texto */
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 50px;
+   font-size: 16px;
+}
+
+/* Botão de inscrição */
+.newsletter-form button {
+   width: 100%;
+   padding: 10px;
+   background-color:#984143;
+   color: white;
+   border: none;
+   border-radius: 50px;
+   font-size: 18px;
+   cursor: pointer;
+}
+
+/* Hover do botão */
+.newsletter-form button:hover {
+   background-color: #E51038;
+}
+
+
